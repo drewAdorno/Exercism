@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AnagramTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-03-12T01:50:49" hostname="DESKTOP-3SBNH1B" time="0.034">
+  <properties/>
+  <testcase name="testCaseInsensitiveWhenBothAnagramAndSubjectStartWithUpperCaseLetter" classname="AnagramTest" time="0.011"/>
+  <testcase name="testEliminateAnagramSubsets" classname="AnagramTest" time="0.001"/>
+  <testcase name="testAnagramMustUseAllLettersExactlyOnce" classname="AnagramTest" time="0.003"/>
+  <testcase name="testIdenticalWordRepeatedIsNotAnagram" classname="AnagramTest" time="0.0"/>
+  <testcase name="testDetectsMultipleAnagramsWithDifferentCase" classname="AnagramTest" time="0.003"/>
+  <testcase name="testWordsOtherThanThemselvesCanBeAnagrams" classname="AnagramTest" time="0.001"/>
+  <testcase name="testDetectMultipleAnagramsForLongerWord" classname="AnagramTest" time="0.003"/>
+  <testcase name="testDetectMultipleAnagrams" classname="AnagramTest" time="0.002"/>
+  <testcase name="testWordsAreNotAnagramsOfThemselvesCaseInsensitive" classname="AnagramTest" time="0.0"/>
+  <testcase name="testCaseInsensitiveWhenSubjectStartsWithUpperCaseLetter" classname="AnagramTest" time="0.001"/>
+  <testcase name="testCaseInsensitiveWhenAnagramStartsWithUpperCaseLetter" classname="AnagramTest" time="0.001"/>
+  <testcase name="testDetectLongerAnagram" classname="AnagramTest" time="0.001"/>
+  <testcase name="testNoMatches" classname="AnagramTest" time="0.0"/>
+  <testcase name="testEliminateAnagramsWithSameChecksum" classname="AnagramTest" time="0.0"/>
+  <system-out><![CDATA[cashregister
+got here
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+radishes
+got here
+[Carthorse]
+dog
+got here
+goody
+got here
+[]
+patter
+patter
+patter
+patter
+got here
+[]
+patter
+patter
+patter
+patter
+got here
+[]
+[]
+patter
+patter
+patter
+patter
+got here
+[]
+go go go
+got here
+[]
+eons
+eons
+eons
+eons
+eons
+ones
+ones
+ones
+ones
+ones
+[Eons, ONES]
+listen
+got here
+silent
+silent
+silent
+silent
+silent
+silent
+silent
+listen
+got here
+[Silent]
+gallery
+gallery
+gallery
+gallery
+gallery
+gallery
+gallery
+gallery
+ballerina
+got here
+regally
+regally
+regally
+regally
+regally
+regally
+regally
+regally
+clergy
+got here
+largely
+largely
+largely
+largely
+largely
+largely
+largely
+largely
+leading
+leading
+leading
+leading
+got here
+[gallery, regally, largely]
+stream
+stream
+stream
+stream
+stream
+stream
+stream
+pigeon
+got here
+maters
+maters
+maters
+maters
+maters
+maters
+maters
+[stream, maters]
+banana
+got here
+banana
+got here
+banana
+got here
+[]
+cashregister
+got here
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+radishes
+got here
+[carthorse]
+cashregister
+got here
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+carthorse
+radishes
+got here
+[Carthorse]
+enlists
+got here
+google
+got here
+inlets
+inlets
+inlets
+inlets
+inlets
+inlets
+inlets
+banana
+got here
+[inlets]
+hello
+got here
+world
+got here
+zombies
+got here
+pants
+got here
+[]
+last
+got here
+[]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
