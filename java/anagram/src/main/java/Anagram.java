@@ -31,20 +31,17 @@ class Anagram {
           temp=s.toLowerCase();
           temp2=str;
 
-          System.out.println(temp);
           for(int i=0; i<s.length(); i++)   //Going through each character in the String
           {
             curChar=Character.toString(temp.charAt(i));
             if(!temp2.contains(curChar) || s.length() != str.length() || s.equalsIgnoreCase(str))    //if word does not contain the letter, break
               {
-                System.out.println("got here");  
                 isAnagram=false;
                   break;
               }
             else
               {
                 temp2 = temp2.replaceFirst(curChar, " ");
-                System.out.println(temp);
               }
           }
           if(isAnagram)
@@ -53,7 +50,6 @@ class Anagram {
           }
           isAnagram=true;
       }
-      System.out.println(returnArr);
       return returnArr;
   }
 }
