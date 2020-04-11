@@ -15,23 +15,18 @@ class Hangman:
             raise ValueError('You are out of guesses')
         if self.get_status()=='win':
             raise ValueError('You already Won')
-        #Find Index of Char in Word
         result = self.word2.find(char)
-        #If Char is not in Word
         if result == -1:
             self.remaining_guesses -= 1
             self.result_check()
             return
-
         while(self.word2.find(char) != -1):
             result = self.word2.find(char)
-            print(self.word2)
-            #Build new word replacing the found character with empty space
             self.word2 = self.word2[0:result] + " " + self.word2[result + 1:]
-            #Build new masked word replacing the underscore in the correct position to the character
             temp = self.masked_word[0:result] + char + self.masked_word[result + 1:]
             self.masked_word = temp
         self.result_check()
+    
     def result_check(self):
         print(self.masked_word)
         if self.word == self.masked_word:
@@ -44,11 +39,3 @@ class Hangman:
 
     def get_status(self):
         return self.status
-
-game = Hangman('foobar')
-game.guess('f')
-game.guess('o')
-
-
-print(game.get_masked_word())
-print(game.get_status())
